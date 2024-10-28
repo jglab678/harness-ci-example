@@ -14,6 +14,7 @@ spec:
      labels:
        app: hello-app
    spec:
+     restartPolicy: Never
      containers:
      - image: jglab678/harness_test_image:lab
        name: hello-app
